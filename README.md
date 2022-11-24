@@ -4,6 +4,12 @@ I am sorry this app is a bit mess but my girlfriend brokeup with me 3 days ago a
 
 #### Exec command in terminal to build and run the application
     mvn clean install spring-boot:run
+    
+#### Database connection
+	spring.datasource.name=postgres
+	spring.datasource.url=jdbc:postgresql://localhost:5432/stringsDB
+	spring.datasource.username=postgres
+	spring.datasource.password=password
 
 
 #### Endpoints
