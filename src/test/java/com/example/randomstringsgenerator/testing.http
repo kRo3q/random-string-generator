@@ -1,0 +1,46 @@
+###
+POST http://localhost:8080/request
+Content-Type: application/json
+
+{
+  "minLength" : "5",
+  "maxLength" : "10",
+  "requestedAmountOfStrings" : "30",
+  "usedCharacters" : "asdfg"
+}
+###
+POST http://localhost:8080/request
+Content-Type: application/json
+
+{
+  "minLength" : "5",
+  "maxLength" : "100",
+  "requestedAmountOfStrings" : "3000",
+  "usedCharacters" : "asdfgfghk"
+}
+###
+POST http://localhost:8080/request
+Content-Type: application/json
+
+{
+  "minLength" : "1",
+  "maxLength" : "10",
+  "requestedAmountOfStrings" : "30000000",
+  "usedCharacters" : "asdfgwertyzxcvbnm"
+}
+###
+POST http://localhost:8080/request
+Content-Type: application/json
+
+{
+  "minLength" : "1",
+  "maxLength" : "1000",
+  "requestedAmountOfStrings" : "30000000",
+  "usedCharacters" : "asdfgvbnmyuioqwert"
+}
+
+###
+GET http://localhost:8080/runningrequests
+
+###
+GET http://localhost:8080/results
