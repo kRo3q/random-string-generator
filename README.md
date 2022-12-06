@@ -1,6 +1,5 @@
 ## Rest API written in Java for generating random unique strings
 
-I am sorry this app is a bit mess but my girlfriend brokeup with me 3 days ago and I am barely keeping myself together. Please be understanding.
 
 #### Exec command in terminal to build and run the application
     mvn clean install spring-boot:run
